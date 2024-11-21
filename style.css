@@ -1,0 +1,47 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(20deg, #cfc8c8, #838383) ;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    position: absolute;
+    background-color: #474747;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:20px;
+    border-radius: 10px;
+
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor:pointer;
+    border: none;
+    background-color: #7a7979;
+    color: #fff;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: #575656;
+}
+.tela{
+    background-color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 27px;
+    text-align: end;
+    margin: 3px;
+    padding: 2px;
+
+}
